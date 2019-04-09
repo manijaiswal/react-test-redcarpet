@@ -474,3 +474,35 @@ input, textarea {
     opacity: .2;
     background: #5d5d8a
 }
+
+
+
+
+
+#side-bar2 .heading2 {
+    box-sizing: border-box;
+    height: 12vh;
+    max-height: 65px;
+    padding: 18px 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: #2e2e4f
+}
+
+#side-bar2 .search2 {
+    background: #3e3e5e;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-width: 1px 0;
+    border-style: solid;
+    border-color: black;
+    padding-left: 15px;
+    padding-right: 20px;
+    height: 10vh;
+    max-height: 65px
+}
