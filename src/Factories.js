@@ -1,12 +1,6 @@
 const uuidv4 = require('uuid/v4')
 
-const createUser = ({name = ""} = {})=>(
-	{
-		id:uuidv4(),
-		name
-		
-	}
-)
+
 
 const createMessage = ({message = "", sender = ""} = { })=>(
 		{
@@ -17,6 +11,10 @@ const createMessage = ({message = "", sender = ""} = { })=>(
 		}
 
 )
+
+const play  = ()=>{
+	console.log(this.props);
+}
 
 const createChat = ({messages = [], name = "Community", users = []} = {})=>(
 	{
